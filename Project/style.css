@@ -1,0 +1,56 @@
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(157, 144, 203);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#inner{
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    border-radius: 8px;
+}
+
+#navbar {
+    background-color: rgb(141, 120, 216);
+    color: white;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+#div{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#in-box{
+    background-color: white;
+    padding: 10px;
+    height: 4px;
+    width: 5px;
+    border-radius: 5%;
+    margin-left: 10px;
+    color: rgb(134, 105, 239);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 600;
+}

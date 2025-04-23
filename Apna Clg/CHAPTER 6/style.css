@@ -1,0 +1,17 @@
+body,html{
+    background-color: rgb(245, 223, 195);
+}
+
+button{
+    background-color: rgb(136, 78, 123);
+    color: aliceblue;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(123, 123, 241);
+    text-align: center;
+}
