@@ -28,3 +28,60 @@ console.log(f, num)
 
 let g = num.unshift(1)
 console.log(g, num)
+
+let compare =(a, b)=>{
+    return a-b
+}
+
+let newNum = [1,2,43,74,55,276,27,18,59]
+console.log(newNum.length)
+delete newNum[0]
+console.log(newNum)
+console.log(newNum.length)
+
+let newArr = newNum.concat(num);
+console.log(newArr);
+console.log(newNum);
+console.log(num)
+
+newNum.sort()
+console.log(newNum);
+
+newNum.sort(compare);
+console.log(newNum);
+
+newNum.reverse()
+console.log(newNum)
+newNum.reverse()
+
+let deletedValues = newNum.splice(2, 4, 1021, 1023, 3045)
+console.log(newNum);
+console.log(deletedValues);
+
+let newNum2 = newNum.slice(3,5)
+console.log(newNum2)
+
+
+// Loops in Array
+
+let myArr = [1, 2, 3,4 ,5 , 6, 7, 8, 9];
+
+for(let i=0; i<myArr.length; i++) {
+    console.log(myArr[i])
+}
+
+myArr.forEach((element)=>{
+    console.log(element*element)
+})
+
+let name = "Abhay"
+let nameArr = Array.from(name)
+console.log(nameArr)
+
+for(let item of myArr){
+    console.log(item)
+}
+
+for(let i in num){
+    console.log(num[i])
+}
