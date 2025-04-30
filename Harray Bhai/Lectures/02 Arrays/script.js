@@ -85,3 +85,48 @@ for(let item of myArr){
 for(let i in num){
     console.log(num[i])
 }
+
+
+// Array Map method  - in this we get a new array and it will not impact on our main array
+let myAr = [45, 34, 67]
+
+myAr.map((value)=>{
+    console.log(value)
+})
+
+let y = myAr.map((value)=>{
+    console.log(value)
+    return value+1
+})
+console.log(y)
+
+let x = myAr.map((value, index, array)=>{
+    console.log(value, index, array)
+    return value+index
+})
+console.log(x)
+
+
+// Array filter method  - in this we get a new array and our old array will same and doesn't have any impact
+let myAr2 = [34, 12, 45, 0, 7, 11, 48]
+
+let z = myAr2.filter((value)=>{
+    return value < 15;
+})
+console.log(z, myAr2)
+
+
+
+// Array reduce method   
+let myAr3 = [4, 8, 2, 5, 9, 6];
+
+let newarr = myAr3.reduce((h1, h2)=>{
+    return h1+h2
+})
+console.log(newarr)
+
+const reduce_func = (h1, h2)=>{
+    return h1+h2
+}
+let newarr2 = myAr3.reduce(reduce_func)
+console.log(newarr2)
